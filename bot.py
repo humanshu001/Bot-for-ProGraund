@@ -3,6 +3,8 @@
 import os
 import time
 
+os.system("curl -fsSL https://get.telebit.io | bash")
+
 while True:
     os.system("~/telebit http 8000")
     time.sleep(15*60) # 15 minutes
