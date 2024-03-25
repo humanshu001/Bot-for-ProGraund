@@ -4,6 +4,8 @@ import os
 import time
 
 os.system("curl -fsSL https://get.telebit.io | bash")
+# press enter key so that this command execute completely
+os.system("")
 
 while True:
     os.system("~/telebit http 8000")
